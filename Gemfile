@@ -4,6 +4,7 @@ gem 'rails', '3.2.12'
 gem 'sqlite3'
 gem 'strong_parameters', '0.2.0'
 gem 'monban', '0.0.6'
+gem 'annotate', ">=2.5.0"
 
 
 # Gems used only for assets and not required
