@@ -17,4 +17,9 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+	gem 'railroady'
+	gem "rails-erd"
+end
+
 gem 'jquery-rails'
