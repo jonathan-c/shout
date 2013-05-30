@@ -1,4 +1,6 @@
 Shouter::Application.routes.draw do
+  get "hashtags/show"
+
   get "following_relationships/create"
 
   get "text_shouts/create"
@@ -14,6 +16,7 @@ Shouter::Application.routes.draw do
   resources :shouts, only: [:show]
   resources :text_shouts, only: [:create]
   resources :photo_shouts, only: [:create]
+  resources :hashtags, only: [:show]
 
 end
 #== Route Map
